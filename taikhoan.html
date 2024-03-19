@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Đăng Nhập và Đăng Ký</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .signup-link {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="boxtop">
+            <div class="boxcenter">
+                <div class="boxtopleft">Hotline: 0702.037.836</div>
+                    <div class="boxtopright">
+                        <a href="./index.html">Trang chủ</a>
+                        <a href="./dangkitaikhoan.html">Đăng ký</a>
+                        <a href="./taikhoan.html">Đăng nhập</a>
+                        
+                </div>
+            </div>
+        </div><br><br><br>
+    </header>
+    <div class="container">
+        <h1>Đăng Nhập</h1>
+        <form action="login.php" method="post">
+            <label for="username">Tên đăng nhập:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Mật khẩu:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Đăng nhập">
+        </form>
+
+        <div class="signup-link">
+            <p>Chưa có tài khoản? <a href="./dangkitaikhoan.html">Đăng ký ngay</a></p>
+        </div>
+    </div>
+</body>
+</html>

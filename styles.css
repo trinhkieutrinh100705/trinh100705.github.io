@@ -1,0 +1,270 @@
+h1{
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding:0;
+}
+.boxtop{
+    margin:0;
+    float:left;
+    width:100%;
+    background-color:gold;
+    height:50px;
+}
+.baner{
+    border-bottom: 1px #333 double;
+    padding-top: 70px;
+    background-color:fuchsia;
+    text-align: center;
+}
+.boxlogo{
+    float:left;
+    width:100%;
+    border-bottom: 1px #ccc solid;
+    line-height: 60px;
+    height:60px;
+    text-align: center;
+    padding-top: 0px;
+}
+.anhlogo{
+    width:100px;
+    height:100px;
+}
+.boxmenu{
+    float:left;
+    width:100%;
+    height:50px;
+    background-color:brown;
+}
+.boxcenter{
+    width:80%;
+    margin:0 auto;
+}
+.boxtopleft{
+    float:right;
+    height:50px;
+    line-height: 50px;
+    color:#333;
+}
+.boxtopright{
+    float:left;
+}
+.boxtopright a{
+    color:#333;
+    text-decoration: underline;
+}
+.boxtopright a{
+    color:#333;
+    height:50px;
+    line-height: 50px;
+    margin-left: 20px;
+    text-decoration: none;
+
+}
+.boxcenter1{
+    width:80%;
+    margin:0 auto;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+ul li{
+    list-style-type: none;
+    float:left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    font-size: 11pt;
+}
+ul li:hover ul{
+    display: block;
+    position:absolute;
+
+
+}
+ul li a{
+    text-decoration: none;
+    color:#333;
+    font-weight: bold;
+}
+ul li ul{
+    display:none;
+    background-color: #eee;
+}
+ul li ul li{
+    float:none;
+    border-bottom: 1px #ccc solid;
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    padding: 10px 20px;
+    
+}
+ul li ul li::first-child {
+    border-top: 1px #ccc solid;
+}
+main{
+    background-color:bisque;
+}
+.anhnen{
+    padding-top: 20px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color:#ccc;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px 50px;
+
+    box-shadow: 0 15 30 ();
+}
+.xaacc{
+    text-align: center;
+    color:dimgray;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.account {
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.account img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    float:left;
+    width:100%;
+    background-color: #333;
+    min-height:150px;
+}
+table{
+    width:98%;
+    text-align: center;
+}
+.naptien{
+    background-color:#fff;
+    color:#333;
+    width:100%;
+    text-align: center;
+    
+}
+.containerh {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.payment-option {
+    margin-bottom: 20px;
+}
+
+.payment-option h2 {
+    margin-bottom: 10px;
+}
+
+.payment-option button {
+    padding: 10px 20px;
+    background-color: #00a650;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.payment-option button:hover {
+    background-color: #00833e;
+}
+section h2{
+    text-align: center;
+}
+section form{
+    margin-left: 35%;
+}
+section form input{
+    margin-left: 50px;
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+}
+#email{
+    margin-left: 79px;
+}
+#message{margin-left: 55px;}
+section form button{margin-left: 20px;
+width: 50px;
+height: 25px;
+margin-left: 370px;}
+.row{
+    float:left;
+    width:100%;
+    margin-bottom: 20px;
+}
+.box{
+    padding-top: 15px;
+    width:92%;
+    margin: 0 auto;
+}
+.footer1{
+    width:40%;
+    float: left;
+}
+.mrg2{
+    margin-bottom: 2%;
+}
+.footer2{
+    width:40%;
+    float: left;
+}
+.footer3{
+    width:20%;
+    float: left;
+}
+.text{
+    text-align: center;
+}
+.color{
+    color:#ccc;
+}
+.mrg10{
+    margin-bottom: 10px;
+}
+.footer2 a{
+    color:#ccc;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.footer2 a:hover{
+    color:#fff;
+    text-decoration: underline;
+}
+.candeu{
+    text-align:justify ;
+}
